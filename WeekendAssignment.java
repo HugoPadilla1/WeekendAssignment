@@ -72,6 +72,45 @@ public class WeekendAssignment{
         String input13b = "There";
         String actual13 = wa.nonStart(input13a, input13b);
         System.out.println("nonStart(\"" + input13a + "\", \"" + input13b + "\"): " + actual13 + " // Expected result: ellohere");
+
+        // test fibonacci
+        int input14 = 5;
+        int actual14 = wa.fibonacci(input14);
+        System.out.println("fibonacci(" + input14 + "): " + actual14 + " // Expected result: 5");
+
+        int input15 = 10;
+        int actual15 = wa.fibonacci(input15);
+        System.out.println("fibonacci(" + input15 + "): " + actual15 + " // Expected result: 55");
+        // test luckySum
+        int input16 = 1;
+        int input17 = 2;
+        int input18 = 3;
+        int actual16 = wa.luckySum(input16, input17, input18);
+        System.out.println("luckySum(" + input16 + ", " + input17 + ", " + input18 + "): " + actual16 + " // Expected result: 6");
+
+        int input19 = 1;
+        int input20 = 13;
+        int input21 = 3;
+        int actual17 = wa.luckySum(input19, input20, input21);
+        System.out.println("luckySum(" + input19 + ", " + input20 + ", " + input21 + "): " + actual17 + " // Expected result: 1");
+
+        // test hasPalindrome
+        String input22 = "racecar";
+        boolean actual18 = wa.hasPalindrome(input22);
+        System.out.println("hasPalindrome(\"" + input22 + "\"): " + actual18 + " // Expected result: true");
+
+        String input23 = "hello";
+        boolean actual19 = wa.hasPalindrome(input23);
+        System.out.println("hasPalindrome(\"" + input23 + "\"): " + actual19 + " // Expected result: false");
+
+        // test powerOfTwo
+        int input24 = 8;
+        boolean actual20 = wa.powerOfTwo(input24);
+        System.out.println("powerOfTwo(" + input24 + "): " + actual20 + " // Expected result: true");
+
+        int input25 = 7;
+        boolean actual21 = wa.powerOfTwo(input25);
+        System.out.println("powerOfTwo(" + input25 + "): " + actual21 + " // Expected result: false");
     }
     // I will be following the order provided in the Assignment details.
 
